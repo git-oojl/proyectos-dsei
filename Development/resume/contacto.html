@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre mí</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your existing CSS -->
+</head>
+<body>
+    <header>
+        <h1>José Luis Ortiz Osuna</h1>
+        <p class="subtitle">Ingeniero en Desarrollo de Software</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="sobre-mi.html">Sobre mi</a>
+        <a href="proyectos.html">Proyectos</a>
+        <a href="contacto.html">Contacto</a>
+    </nav>
+
+    <section>
+        <h2>Contacto</h2>
+        <form action="#" method="post">
+            <fieldset>
+    
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre aquí." required>
+    
+                <label for="telefono">Teléfono</label>
+                <input type="tel" id="telefono" name="telefono" placeholder="Ej. 6641234567" pattern="[0-9]{10}" required>
+    
+                <label for="correo">Correo</label>
+                <input type="email" id="correo" name="correo" placeholder="Ej. usuario@email.com" required>
+    
+                <label for="comentario">Comentario</label>
+                <textarea id="comentario" name="comentario" placeholder="Escribe tu mensaje aquí." rows="4" required></textarea>
+    
+                <button type="submit">Enviar</button>
+            </fieldset>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Todos los derechos reservados</p>
+    </footer>
+</body>
+</html>
