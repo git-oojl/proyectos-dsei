@@ -1,0 +1,18 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #dcf8ff;
+}
+
+body h1 {
+    text-align: center;
+}
+
+button[type="submit"] {
+    background-color: #2a1abc;
+    color: white;
+}
+
+input[type="text"],  
+textarea {
+    padding: 10px;
+    margin-bottom: 10px;
